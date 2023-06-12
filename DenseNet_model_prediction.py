@@ -81,7 +81,7 @@ def build_model():
     x = Activation('relu')(x)
     x = Dense(500, kernel_regularizer=regularizers.l1_l2(0.01), activity_regularizer=regularizers.l2(0.01))(x)
     x = Activation('relu')(x)
-    predictions = Dense(3, activation='softmax')(x)
+    predictions = Dense(2, activation='softmax')(x)
     model = Model(inputs=base_model.input, outputs=predictions)
     
     return model
