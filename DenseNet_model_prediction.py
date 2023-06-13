@@ -36,12 +36,12 @@ test_data_dir = 'Data/test/'
 
 
 datagen = ImageDataGenerator(
-    rescale=1/255,
-    validation_split=0.00, 
-    rotation_range=40,
-    width_shift_range=0.2,
-    height_shift_range=0.2,
-    shear_range=0.2,
+    #rescale=1/255,
+   # validation_split=0.00, 
+   # rotation_range=40,
+   # width_shift_range=0.2,
+   # height_shift_range=0.2,
+   # shear_range=0.2,
     zoom_range=0.2,
     horizontal_flip=True,
     fill_mode='nearest'
@@ -56,19 +56,19 @@ train_generator = datagen.flow_from_directory(
         train_data_dir,
         target_size=(img_width, img_height),
         batch_size=batch_size,
-        class_mode='binary')
+        class_mode='categorical')
 
 validation_generator = datagen.flow_from_directory(
         val_data_dir,
         target_size=(img_width, img_height),
         batch_size=batch_size,
-        class_mode='binary')
+        class_mode='categorical')
 
 test_generator = datagen.flow_from_directory(
         test_data_dir,
         target_size=(img_width, img_height),
         batch_size=batch_size,
-        class_mode='binary')
+        class_mode='categorical')
 
 
 def build_model():
@@ -91,12 +91,12 @@ model.summary()
 
 
 #Describing the optimization scheme and the cost function 
-model.compile(loss='sparse_categorical_crossentropy',  optimizer='adam', metrics=['accuracy'])
+model.compile(loss='categorical_crossentropy',  optimizer='adam', metrics=['accuracy'])
 
 
 
 #Training
-epochs = 5
+epochs = 10
 train_samples = 5216
 validation_samples = 624
 test_samples = 16
@@ -109,9 +109,14 @@ csv_logger = CSVLogger('log1.csv', append=True, separator=';')
 model.fit_generator(train_generator, steps_per_epoch=train_samples // batch_size, epochs=epochs,validation_data=validation_generator, validation_steps=validation_samples// batch_size, callbacks = csv_logger)
 
 
-model.save('COVIDDenseNet121_5_epochs.h5')
+model.save('COVIDDenseNet121_10_epochs.h5')
 
 #Evaluating on validation set for Computing loss and accuracy :
 
-model.evaluate_generator(validation_generator, validation_samples)
+#model.evaluate_generator(validation_generator, validation_samples)
+
+elapsed = time.time() - t
+
+print('Elapsed Time is : %.8f seconds ' % (elapsed))
+
 
