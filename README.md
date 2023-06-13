@@ -5,7 +5,7 @@ for classifying an x-ray image containing pneumonia or not.
 
 The deep learning recognition model was build from DenseNet121 and the deployment was done on Gradio framework. 
 
-We employed the ipython file (DenseNet121_model_training.ipynb) for training the DeneseNet121 model.
+An ipython file  (DenseNet121_model_training.ipynb) was used for training the DenseNet121 model.
 
 # Link to the model weights generated:
 
