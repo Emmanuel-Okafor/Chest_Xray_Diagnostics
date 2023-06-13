@@ -6,7 +6,7 @@ from tensorflow.keras.models import load_model
 
 #Load the trained weights
 
-model = load_model("COVIDDenseNet121_3_epochs.h5")
+model = load_model("COVIDDenseNet121_10_epochs.h5")
 class_labels = [ 'NORMAL', 'PNEUMONIA']
 
 # Deep Learning for Chest Xray  Prediction 
