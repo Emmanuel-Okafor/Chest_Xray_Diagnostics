@@ -9,7 +9,7 @@ We employed the ipython file (DenseNet121_model_training.ipynb) for training the
 
 # Link to the model weights generated:
 
-https://drive.google.com/file/d/1TzgIrrI2-5jdMYo8z_VmtN2kDb9IqDBy/view?usp=sharing 
+model weight: 'COVIDDenseNet121_10_epochs.h5' (https://drive.google.com/file/d/1TzgIrrI2-5jdMYo8z_VmtN2kDb9IqDBy/view?usp=sharing)
 
 After training for 10 epochs, the trained model is 68% accurate at testing phase and could get better when the deep learning algorithm 
 is trained for long time duration.
