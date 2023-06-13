@@ -11,7 +11,7 @@ Link to the model weights generated:
 
 https://drive.google.com/file/d/1TzgIrrI2-5jdMYo8z_VmtN2kDb9IqDBy/view?usp=sharing 
 
-After training for 10 epochs, the trained model is 68% accurate at testing phase and could get better when deep learning algorithm 
+After training for 10 epochs, the trained model is 68% accurate at testing phase and could get better when the deep learning algorithm 
 is trained for long time duration.
 
 
