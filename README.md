@@ -3,19 +3,6 @@
 A pilot development of a chest X-ray diagnostic tool: This project entails the development  of a deep learning model 
 for classifying an x-ray image containing pneumonia or not. 
 
-The deep learning recognition model was build from DenseNet121 and the deployment was done on Gradio framework. 
-
-# Old version of the diagnostic model (Implemented in Tensorflow)
-
-An ipython file  (DenseNet121_model_training.ipynb) was used for training the DenseNet121 model (Implemented in Tensorflow)
-
-# Link to the model weights generated:
-
-model weight: 'COVIDDenseNet121_10_epochs.h5' (https://drive.google.com/file/d/1TzgIrrI2-5jdMYo8z_VmtN2kDb9IqDBy/view?usp=sharing)
-
-After training for 10 epochs, the trained model is 68% accurate at testing phase and could get better when the deep learning algorithm 
-is trained for long time duration.
-
 # New version of the diagnostic model (Implemented in Pytorch)
 An ipython file  (pneumonia_image_classification_and_diagonstic.ipynb) was used for training the ResNet-50 model (Implemented in Pytorch)
 * The file support training of deep learning model
@@ -28,6 +15,20 @@ An ipython file  (pneumonia_image_classification_and_diagonstic.ipynb) was used 
 of a doctor for possible treatment protocol. 
 
 model weights 'data_model_24.pt' (https://drive.google.com/file/d/1Kkw5d_a5LR0qQtfqtUgMymIoUMWihuU-/view?usp=sharing)
+
+The deep learning recognition model was build from DenseNet121 and the deployment was done on Gradio framework. 
+
+
+# Old version of the diagnostic model (Implemented in Tensorflow)
+
+An ipython file  (DenseNet121_model_training.ipynb) was used for training the DenseNet121 model (Implemented in Tensorflow)
+
+# Link to the model weights generated:
+
+model weight: 'COVIDDenseNet121_10_epochs.h5' (https://drive.google.com/file/d/1TzgIrrI2-5jdMYo8z_VmtN2kDb9IqDBy/view?usp=sharing)
+
+After training for 10 epochs, the trained model is 68% accurate at testing phase and could get better when the deep learning algorithm 
+is trained for long time duration.
 
 
 # Data Source
