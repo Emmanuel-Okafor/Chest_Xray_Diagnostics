@@ -7,15 +7,15 @@ for classifying an x-ray image containing pneumonia or not.
 
 The deep learning recognition model was build from modified ResNet-50 and the deployment was done on Gradio framework.
 
-An ipython file  (pneumonia_image_classification_and_diagonstic.ipynb) was implemented and was used for training the ResNet-50 model (Implemented in Pytorch)
-* The file support training of deep learning model
+An ipython file  (pneumonia_image_classification_and_diagonstic.ipynb) was implemented and was used for training the ResNet-50 model (Implemented in Pytorch); the  *.ipynb contains program for;
 
-* Program that support evaluation of the deep learning classification report (Accuracy, Precision, F1-Score, and Recall)
+* Training the deep learning model
 
-* Display of confusion matrix for both testing and validation sets which yielded 87% after training for 25 epochs.
+* Evaluation of the deep learning classification report (Accuracy, Precision, F1-Score, and Recall)
 
-* Integration of application programming  interface that support model prediction of pneumonia or not, and provide recommendation of consultation 
-of a doctor for possible treatment protocol. 
+* Display of confusion matrix for both testing and validation sets which yielded 87% accuracy after training for 25 epochs.
+
+* Integration of application programming  interface (API) that support model prediction of pneumonia or not, and provide recommendation platform to consult a doctor or not for possible treatment protocol. 
 
 model weights 'data_model_24.pt' (https://drive.google.com/file/d/1Kkw5d_a5LR0qQtfqtUgMymIoUMWihuU-/view?usp=sharing)
 
