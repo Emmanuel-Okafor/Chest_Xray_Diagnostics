@@ -4,6 +4,9 @@ A pilot development of a chest X-ray diagnostic tool: This project entails the d
 for classifying an x-ray image containing pneumonia or not. 
 
 # New version of the diagnostic model (Implemented in Pytorch)
+
+The deep learning recognition model was build from modified ResNet-50 and the deployment was done on Gradio framework.
+
 An ipython file  (pneumonia_image_classification_and_diagonstic.ipynb) was used for training the ResNet-50 model (Implemented in Pytorch)
 * The file support training of deep learning model
 
@@ -16,10 +19,10 @@ of a doctor for possible treatment protocol.
 
 model weights 'data_model_24.pt' (https://drive.google.com/file/d/1Kkw5d_a5LR0qQtfqtUgMymIoUMWihuU-/view?usp=sharing)
 
-The deep learning recognition model was build from DenseNet121 and the deployment was done on Gradio framework. 
-
 
 # Old version of the diagnostic model (Implemented in Tensorflow)
+
+The deep learning recognition model was build from DenseNet121 and the deployment was done on Gradio framework. 
 
 An ipython file  (DenseNet121_model_training.ipynb) was used for training the DenseNet121 model (Implemented in Tensorflow)
 
