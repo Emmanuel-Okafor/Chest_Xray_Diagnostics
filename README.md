@@ -22,7 +22,7 @@ An ipython file  (pneumonia_image_classification_and_diagonstic.ipynb) was used 
 
 * Program that support evaluation of the deep learning classification report (Accuracy, Precision, F1-Score, and Recall)
 
-* Display of confusion matrix for both testing and validation sets which yielded 87% after training 25 epochs.
+* Display of confusion matrix for both testing and validation sets which yielded 87% after training for 25 epochs.
 
 * Integration of application programming  interface that support model prediction of pneumonia or not, and provide recommendation of consultation 
 of a doctor for possible treatment protocol. 
