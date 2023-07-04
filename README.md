@@ -5,7 +5,15 @@ for classifying an x-ray image containing pneumonia or not.
 
 The deep learning recognition model was build from DenseNet121 and the deployment was done on Gradio framework. 
 
-An ipython file  (DenseNet121_model_training.ipynb) was used for training the DenseNet121 model.
+An ipython file  (DenseNet121_model_training.ipynb) was used for training the DenseNet121 model (Implemented in Tensorflow)
+
+An ipython file  (pneumonia_image_classification_and_diagonstic.ipynb) was used for training the ResNet-50 model (Implemented in Pytorch)
+-The file support training of deep learning model
+-Program that support evaluation of the deep learning classification report (Accuracy, Precision, F1-Score, and Recall)
+-Display of confusion matrix for both testing and validation sets which yielded 87% after training 25 epochs.
+-Integration of application programming  interface that support model prediction of pneumonia or not, and provide recommendation of consultation 
+of a doctor for possible treatment protocol. 
+
 
 # Link to the model weights generated:
 
@@ -13,6 +21,10 @@ model weight: 'COVIDDenseNet121_10_epochs.h5' (https://drive.google.com/file/d/1
 
 After training for 10 epochs, the trained model is 68% accurate at testing phase and could get better when the deep learning algorithm 
 is trained for long time duration.
+
+#
+https://drive.google.com/file/d/1Kkw5d_a5LR0qQtfqtUgMymIoUMWihuU-/view?usp=sharing
+
 
 # Data Source
 We employed the training set and testing set (treated as validation set since it contains sufficient amount of data) from the data 
