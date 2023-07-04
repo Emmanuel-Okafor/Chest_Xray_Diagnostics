@@ -19,8 +19,8 @@ An ipython file  (pneumonia_image_classification_and_diagonstic.py) was implemen
 
 
 model weights 
-'data_model_28.pt' (https://drive.google.com/file/d/1tIWfZ8jq2ZLVjbLPRpZ9fEQ-DmHPOR8C/view?usp=sharing)
-'data_model_24.pt' (https://drive.google.com/file/d/1Kkw5d_a5LR0qQtfqtUgMymIoUMWihuU-/view?usp=sharing)
+* 'data_model_28.pt' (https://drive.google.com/file/d/1tIWfZ8jq2ZLVjbLPRpZ9fEQ-DmHPOR8C/view?usp=sharing)
+* 'data_model_24.pt' (https://drive.google.com/file/d/1Kkw5d_a5LR0qQtfqtUgMymIoUMWihuU-/view?usp=sharing)
 
 # Deployment Application
 Use the command below to run the chest xray  diagnostic application tool 
