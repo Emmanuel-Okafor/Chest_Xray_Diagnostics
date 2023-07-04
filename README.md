@@ -23,6 +23,11 @@ model weights
 'data_model_28.pt' (https://drive.google.com/file/d/1tIWfZ8jq2ZLVjbLPRpZ9fEQ-DmHPOR8C/view?usp=sharing)
 'data_model_24.pt' (https://drive.google.com/file/d/1Kkw5d_a5LR0qQtfqtUgMymIoUMWihuU-/view?usp=sharing)
 
+# Deployment Application
+Use the command to run the chest x-xray diagnostic app
+
+python app.py
+
 
 # Old version of the diagnostic model (Implemented in Tensorflow)
 
