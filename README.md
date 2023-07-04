@@ -3,6 +3,8 @@
 A pilot development of a chest X-ray diagnostic tool: This project entails the development  of a deep learning model 
 for classifying an x-ray image containing pneumonia or not. 
 
+![Screenshot](screenshot.png)
+
 # New version of the diagnostic model (Implemented in Pytorch)
 
 The deep learning recognition model was build from modified ResNet-50 and the deployment was done on Gradio framework.
