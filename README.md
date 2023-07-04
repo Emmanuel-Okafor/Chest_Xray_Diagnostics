@@ -24,7 +24,7 @@ model weights
 'data_model_24.pt' (https://drive.google.com/file/d/1Kkw5d_a5LR0qQtfqtUgMymIoUMWihuU-/view?usp=sharing)
 
 # Deployment Application
-Use the command to run the chest x-xray diagnostic app
+Use the command below to run the chest xray  diagnostic application tool for predicting the existence of pneumonia or not.
 
 python app.py
 
