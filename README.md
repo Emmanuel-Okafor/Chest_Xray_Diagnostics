@@ -20,7 +20,7 @@ An ipython file  (pneumonia_image_classification_and_diagonstic.ipynb) was imple
 * Integration of application programming  interface (API) that support model prediction of pneumonia or not, and provide recommendation platform to consult a doctor or not for possible treatment protocol. 
 
 model weights 
-'dat_model_28.pt' (https://drive.google.com/file/d/1tIWfZ8jq2ZLVjbLPRpZ9fEQ-DmHPOR8C/view?usp=sharing)
+'data_model_28.pt' (https://drive.google.com/file/d/1tIWfZ8jq2ZLVjbLPRpZ9fEQ-DmHPOR8C/view?usp=sharing)
 'data_model_24.pt' (https://drive.google.com/file/d/1Kkw5d_a5LR0qQtfqtUgMymIoUMWihuU-/view?usp=sharing)
 
 
