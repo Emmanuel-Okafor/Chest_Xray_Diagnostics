@@ -15,7 +15,7 @@ An ipython file  (pneumonia_image_classification_and_diagonstic.py) was implemen
 
 * Evaluation of the deep learning classification report (Accuracy, Precision, F1-Score, and Recall)
 
-* Display of confusion matrix for both testing and validation sets which yielded 87% accuracy after training for 25 epochs.
+* Display of confusion matrix for both testing and validation sets which yielded 87% accuracy after training for >=25 epochs.
 
 
 model weights 
