@@ -28,22 +28,22 @@ transform = transforms.Compose([ # resize image to the network input size
 
 
 # convert tensor to numpy array
-def tensor2npimg(tensor, mean, std): 
+#def tensor2npimg(tensor, mean, std): 
     # inverse of normalization
    # tensor.device = 'cpu'
-    tensor = tensor.clone()
-    mean_tensor = torch.as_tensor(list(mean), dtype=tensor.dtype, device='cpu').view(-1,1,1)
-    std_tensor = torch.as_tensor(list(std), dtype=tensor.dtype, device='cpu').view(-1,1,1)
-    tensor.cpu().mul_(std_tensor).add_(mean_tensor)
+   # tensor = tensor.clone()
+   # mean_tensor = torch.as_tensor(list(mean), dtype=tensor.dtype, device='cpu').view(-1,1,1)
+  #  std_tensor = torch.as_tensor(list(std), dtype=tensor.dtype, device='cpu').view(-1,1,1)
+   # tensor.cpu().mul_(std_tensor).add_(mean_tensor)
   # convert tensor to numpy format for plt presentation
     #npimg =  tensor.cpu().detach().numpy()
-    npimg = tensor.detach().cpu().numpy()
+   # npimg = tensor.detach().cpu().numpy()
    # print(npimg.shape)
     #npimg = np.transpose(npimg,(3, 2, 0,1)) # C*H*W => H*W*C
     
-    print(npimg.shape)
+ #   print(npimg.shape)
     
-    return npimg
+  #  return npimg
 
 
 
